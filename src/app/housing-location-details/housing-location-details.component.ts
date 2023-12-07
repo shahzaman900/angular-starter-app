@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { HousingService } from '../housing.service';
 
 @Component({
   selector: 'app-housing-location-details',
@@ -9,5 +10,6 @@ import { CommonModule } from '@angular/common';
   styleUrl: './housing-location-details.component.css'
 })
 export class HousingLocationDetailsComponent {
+  
 
 }
